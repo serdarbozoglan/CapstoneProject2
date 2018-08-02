@@ -1,7 +1,7 @@
 # Information regarding CapstoneProject2 
 
-[Following information is obtained from] (https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/)  
-[and] (https://www.kaggle.com/datasnaek/mbti-type/home)
+Following information is obtained from <https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/>   
+<https://www.kaggle.com/datasnaek/mbti-type/home>
 
 
 The purpose of the __Myers-Briggs Type Indicator® (MBTI®)__ personality inventory is to make the theory of psychological types described by C. G. Jung understandable and useful in people's lives. The essence of the theory is that much seemingly random variation in the behavior is actually quite orderly and consistent, being due to basic differences in the ways individuals prefer to use their perception and judgment.
