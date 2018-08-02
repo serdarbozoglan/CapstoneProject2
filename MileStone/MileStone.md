@@ -5,23 +5,25 @@
 The purpose of the Myers-Briggs Type Indicator® (MBTI®) personality inventory is to make the theory of psychological types described by C. G. Jung understandable and useful in people's lives. The essence of the theory is that much seemingly random variation in the behavior is actually quite orderly and consistent, being due to basic differences in the ways individuals prefer to use their perception and judgment.
 
 According to The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axes:
-Introversion (I) – Extroversion (E)
-Intuition (N) – Sensing (S)
-Thinking (T) – Feeling (F)
-Judging (J) – Perceiving (P)
+
+`Introversion (I) – Extroversion (E)`
+`Intuition (N) – Sensing (S)`
+`Thinking (T) – Feeling (F)`
+`Judging (J) – Perceiving (P)`
+
 We have 16 different combination of personality types in our data set. In summary this is a personality classification prediction study based on MBTI test results. 
 Who Might Care :
 It is one of, if not the, the most popular personality test in the world. It is used in businesses, online, for fun, for research and lots more. It’s safe to say that this test is still very relevant in the world in terms of its use. The test is commonly used in many different business-oriented settings, including:
 
-•	Leadership development
+`Leadership development`
 
-•	Team building
+`Team building`
 
-•	Screening and interviewing employees
+`Screening and interviewing employees`
 
-•	Career selection
+`Career selection`
 
-•	Personal development
+`Personal development`
 
 In this context, companies, institution, organizations, and even people may care about it.  
 
