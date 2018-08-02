@@ -1,8 +1,8 @@
 # Information regarding CapstoneProject2 
 
-Following information is obtained from <https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/>  and
-<https://www.kaggle.com/datasnaek/mbti-type/home>
+This is study is about prediction of personality type of people from their social media posts. The information below regarding personality type Following information is obtained from <https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/>  and <https://www.kaggle.com/datasnaek/mbti-type/home>
 
+First we will describe the MBTI test and its purpose then explain what is our aim in this study. Let's start with giving information about personality type test.
 
 The purpose of the __Myers-Briggs Type Indicator® (MBTI®)__ personality inventory is to make the theory of psychological types described by C. G. Jung understandable and useful in people's lives. The essence of the theory is that much seemingly random variation in the behavior is actually quite orderly and consistent, being due to basic differences in the ways individuals prefer to use their perception and judgment.
 
@@ -36,10 +36,10 @@ The best reason to choose the MBTI instrument to discover personality type is th
 
 The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
 
-`Introversion (I) – Extroversion (E)
+<p><span style="color: Blue; font-family: Babas; font-size: 1.5em;"> P`Introversion (I) – Extroversion (E)
 Intuition (N) – Sensing (S)
 Thinking (T) – Feeling (F)
-Judging (J) – Perceiving (P)`
+Judging (J) – Perceiving (P)`</>
 
 So for example, someone who prefers `introversion`, `intuition`, `thinking` and `perceiving` would be labelled an `INTP` in the MBTI system, and there are lots of personality based components that would model or describe this person’s preferences or behaviour based on the label.
 
@@ -49,12 +49,16 @@ From scientific or psychological perspective it is based on the work done on cog
 
 Recently, its use/validity has come into question because of unreliability in experiments surrounding it, among other reasons. But it is still clung to as being a very useful tool in a lot of areas, and the purpose of this dataset is to help see if any patterns can be detected in specific types and their style of writing, which overall explores the validity of the test in analysing, predicting or categorising behaviour.
 
+## Data Source: 
+
 The Kaggle states taht the data was collected through the `PersonalityCafe forum`, as it provides a large selection of people and their MBTI personality type, as well as __what they have written.__
 
-In this context, we will use machine learning models to predict the personality type of the people from their social media post. 
+We have 8675 observations in our data set. Each observation contains a post which is written by a person and his/her personality type in another column. 
 
 ## What we will do in this study?
 
-In the original kaggle data set, some peoples' names are replaced with their MBTI in their post. For example "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already ENTJ. This helps to classify the personality type.
+In this context, we will use machine learning models to predict the MBTI personality type of the people from their posts. 
 
-In our study, first we will predict the personality types keeping the personality type names such as INTJ or ENTJ etc in our posts and we will see how these words are 
+In the original Kaggle data set, some peoples' names are replaced with their MBTI in their post. For example "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already ENTJ. This helps to classify the personality type.
+
+In our study, __first__ we will predict the personality types __keeping the personality type names such as INTJ or ENTJ etc in our posts__ and we will see how these words are important and affect the predictions. Then we will __remove those words__ from the posts and predict the personality types. 
