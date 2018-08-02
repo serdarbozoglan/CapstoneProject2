@@ -1,6 +1,6 @@
 # Information regarding CapstoneProject2 
 
-####[Following information is obtained from] (https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/)  
+[Following information is obtained from] (https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/)  
 [and] (https://www.kaggle.com/datasnaek/mbti-type/home)
 
 
