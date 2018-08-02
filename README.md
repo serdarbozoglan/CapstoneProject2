@@ -64,4 +64,4 @@ In this context, we will use machine learning models to predict the MBTI persona
 
 In the original Kaggle data set, some peoples' names are replaced with their MBTI in their post. For example "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already ENTJ. This helps to classify the personality type.
 
-In our study, __first__ we will predict the personality types __keeping the personality type names such as INTJ or ENTJ etc in our posts__ and we will see how these words are important and affect the predictions. Then we will __remove those words__ from the posts and predict the personality types. 
+In our study, __first__ we will predict the personality types __keeping the personality type names such as INTJ or ENTJ etc in our posts__ and we will figure out how these words are important for our predictions and affect the accuracy of the models. Then we will __remove those words__ from the posts and predict the personality types. 
