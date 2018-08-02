@@ -12,10 +12,15 @@ Judging (J) – Perceiving (P)
 We have 16 different combination of personality types in our data set. In summary this is a personality classification prediction study based on MBTI test results. 
 Who Might Care :
 It is one of, if not the, the most popular personality test in the world. It is used in businesses, online, for fun, for research and lots more. It’s safe to say that this test is still very relevant in the world in terms of its use. The test is commonly used in many different business-oriented settings, including:
+
 •	Leadership development
+
 •	Team building
+
 •	Screening and interviewing employees
+
 •	Career selection
+
 •	Personal development
 
 In this context, companies, institution, organizations, and even people may care about it.  
