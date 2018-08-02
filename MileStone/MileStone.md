@@ -7,8 +7,11 @@ The purpose of the Myers-Briggs Type Indicator® (MBTI®) personality inventory 
 According to The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axes:
 
 `Introversion (I) – Extroversion (E)`
+
 `Intuition (N) – Sensing (S)`
+
 `Thinking (T) – Feeling (F)`
+
 `Judging (J) – Perceiving (P)`
 
 We have 16 different combination of personality types in our data set. In summary this is a personality classification prediction study based on MBTI test results. 
