@@ -37,27 +37,32 @@ b.	We have 8675 observations in our data set. Each data observation contains a p
 
 c.	We will preprocess the post before implementation of ML algorithms. In this context:
 
-•	We will lowercase the posts.
-•	We will remove the links from posts.
-•	We will expand the contractions such as I’m to I am.
-•	We will remove whitespace and eliminate all other things but words.
-•	We will remove punctuations, stopwords such as the, or, and, my etc.
-•	Finally, we will use stemmer to get the root of the words.
+`We will lowercase the posts`
+
+`We will remove the links from posts`
+
+`We will expand the contractions such as I’m to I am`
+
+`We will remove whitespace and eliminate all other things but words`
+
+`We will remove punctuations, stopwords such as the, or, and, my etc`
+
+`Finally, we will use stemmer to get the root of the words`
 
 d.	Our target column is personality type which has 16 different class.
 
-e.	We created new column which is called [‘clean_text’] holding processed texts which are described above. This column contains MBTI personality types such as ‘ENFJ, INTP or ENTP’. Those words were not removed on purpose.
+e.	We created new column which is called __[‘clean_text’]__ holding processed texts which are described above. This column contains MBTI personality types such as ‘ENFJ, INTP or ENTP’. Those words were not removed on purpose.
 
-f.	 We have created another column [‘clean_text_without_mbti’]. This column is exactly same with [‘clean_text’] column but MBTI words.
+f.	 We have created another column __[‘clean_text_without_mbti’]__. This column is exactly same with [‘clean_text’] column but MBTI words.
 
 ## Machine Learning Aspect
 1.	We have used Logistic Regression, Linear SVM and XGB ML algorithms.
 2.	We followed two different approach to predict the personality type of people from their posts.
-1.	In the original Kaggle data set, some peoples' names are replaced with their MBTI profiles in their post. For example, "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already known as ENTJ. This helps to classify the personality type. In this context we have used [‘clean_text’] column as a data set.
-2.	Later, we have removed MBTI profile labels from the posts. In this context, we have used [‘clean_text_without_mbti’] column as our data set. 
+1.	In the original Kaggle data set, some peoples' names are replaced with their MBTI profiles in their post. For example, "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already known as ENTJ. This helps to classify the personality type. In this context we have used __[‘clean_text’]__ column as a data set.
+2.	Later, we have removed MBTI profile labels from the posts. In this context, we have used __[‘clean_text_without_mbti’]__ column as our data set. 
  	Our aim is to evaluate how MBTI labels affect our predictions. What if we remove those labels in terms 	of accuracy of models.
 3.	At the beginning we will try to predict all types of personalities at the same time. Due to 16 different classes we expect relatively low accuracy. Then we will predict controversial personality types with each other such as Introversion vs Extroversion, Thinking vs Feeling, Intuition vs Sensing and Judging vs Perceiving.
 
-4.	We will use 80% of data as train set and rest for test set.
+4.	We will use __80% of data as train set__ and rest for test set.
 
 5.	We will implement gridsearch technique and pipeline workflow in this study.
