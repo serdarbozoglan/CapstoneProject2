@@ -16,7 +16,7 @@ The identification and description of the 16 distinctive personality types that 
 
 Excerpted with permission from the MBTI® Manual: A Guide to the Development and Use of the Myers-Briggs Type Indicator®
 
-__Favorite world:__ Do you prefer to focus on the outer world or on your own inner world? This is called `Extraversion (E)` or `Introversion (I)`.
+__Favorite world:__ Do you prefer to focus on the outer world or on your own inner world? This is called `Extroversion (E)` or `Introversion (I)`.
 
 __Information:__ Do you prefer to focus on the basic information you take in or do you prefer to interpret and add meaning? This is called `Sensing (S)` or `Intuition (N)`.
 
