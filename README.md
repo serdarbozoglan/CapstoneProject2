@@ -58,7 +58,7 @@ The Kaggle states that the data was collected through the `PersonalityCafe forum
 
 We have 8675 observations in our data set. Each observation contains a post which is written by a person and his/her personality type in another column. 
 
-## What we will do in this study?
+## What we will do in this project?
 
 In this context, we will use machine learning models to predict the MBTI personality type of the people from their posts. 
 
