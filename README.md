@@ -51,17 +51,3 @@ The theory of psychological type was introduced in the 1920s by Carl G. Jung. Th
 From scientific or psychological perspective it is based on the work done on cognitive functions by Carl Jung i.e. Jungian Typology. This was a model of 8 distinct functions, thought processes or ways of thinking that were suggested to be present in the mind. Later this work was transformed into several different personality systems to make it more accessible, the most popular of which is of course the MBTI.
 
 Recently, its use/validity has come into question because of unreliability in experiments surrounding it, among other reasons. But it is still clung to as being a very useful tool in a lot of areas, and the purpose of this dataset is to help see if any patterns can be detected in specific types and their style of writing, which overall explores the validity of the test in analysing, predicting or categorising behaviour.
-
-## Data Source: 
-
-The Kaggle states that the data was collected through the `PersonalityCafe forum`, as it provides a large selection of people and their MBTI personality type, as well as __what they have written.__
-
-We have 8675 observations in our data set. Each observation contains a post which is written by a person and his/her personality type in another column. 
-
-## What we will do in this project?
-
-In this context, we will use machine learning models to predict the MBTI personality type of the people from their posts. 
-
-In the original Kaggle data set, some peoples' names are replaced with their MBTI profiles in their post. For example "...Who wants their most reliable asset gone for that long? ENTJ employer..."  is from one of the posts in the data set. The person name is replaced by ENTJ due to his/her MBTI test result is already ENTJ. This helps to classify the personality type.
-
-In our study, __first__ we will predict the personality types __keeping the personality type names such as INTJ or ENTJ etc in our posts__ and we will figure out how these words are important for our predictions and affect the accuracy of the models. Then we will __remove those words__ from the posts and predict the personality types. 
