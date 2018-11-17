@@ -1,6 +1,6 @@
 # PERSONALITY TYPE PREDICTION
 
-This is study is about prediction of personality type of people from their social media posts. The information below regarding personality type Following information is obtained from <https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/>  and <https://www.kaggle.com/datasnaek/mbti-type/home>
+This is study is about prediction of personality type of people from their social media posts. The information below regarding personality type Following information is obtained from <https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/> 
 
 First we will describe the MBTI test and its purpose then explain what is our aim in this study. Let's start with giving information about personality type test.
 
